@@ -105,9 +105,7 @@
 				F3CC2D82237C3D9A0057BA92 /* SceneDelegate.swift */,
 				F3CC2D84237C3D9A0057BA92 /* ViewController.swift */,
 				F3CC2D86237C3D9A0057BA92 /* Main.storyboard */,
-				F3CC2D89237C3D9A0057BA92 /* Assets.xcassets */,
-				F3CC2D8B237C3D9A0057BA92 /* LaunchScreen.storyboard */,
-				F3CC2D8E237C3D9A0057BA92 /* Info.plist */,
+				F3CC2DB1237C53B40057BA92 /* Resources */,
 			);
 			path = UICollectionViewTechniques;
 			sourceTree = "<group>";
@@ -128,6 +126,16 @@
 				F3CC2DA4237C3D9B0057BA92 /* Info.plist */,
 			);
 			path = UICollectionViewTechniquesUITests;
+			sourceTree = "<group>";
+		};
+		F3CC2DB1237C53B40057BA92 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F3CC2D89237C3D9A0057BA92 /* Assets.xcassets */,
+				F3CC2D8B237C3D9A0057BA92 /* LaunchScreen.storyboard */,
+				F3CC2D8E237C3D9A0057BA92 /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
