@@ -49,6 +49,7 @@
 		F3CC2D9E237C3D9A0057BA92 /* UICollectionViewTechniquesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UICollectionViewTechniquesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3CC2DA2237C3D9A0057BA92 /* UICollectionViewTechniquesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewTechniquesUITests.swift; sourceTree = "<group>"; };
 		F3CC2DA4237C3D9B0057BA92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3CC2DB0237C3E170057BA92 /* UICollectionViewTechniques.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UICollectionViewTechniques.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +100,7 @@
 		F3CC2D7F237C3D9A0057BA92 /* UICollectionViewTechniques */ = {
 			isa = PBXGroup;
 			children = (
+				F3CC2DB0237C3E170057BA92 /* UICollectionViewTechniques.entitlements */,
 				F3CC2D80237C3D9A0057BA92 /* AppDelegate.swift */,
 				F3CC2D82237C3D9A0057BA92 /* SceneDelegate.swift */,
 				F3CC2D84237C3D9A0057BA92 /* ViewController.swift */,
@@ -434,7 +436,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = UICollectionViewTechniques/UICollectionViewTechniques.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = T7E3EY74C9;
 				INFOPLIST_FILE = UICollectionViewTechniques/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -444,6 +448,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = takanori.hirobe.UICollectionViewTechniques;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -453,7 +458,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = UICollectionViewTechniques/UICollectionViewTechniques.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_TEAM = T7E3EY74C9;
 				INFOPLIST_FILE = UICollectionViewTechniques/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
@@ -463,6 +470,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = takanori.hirobe.UICollectionViewTechniques;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
