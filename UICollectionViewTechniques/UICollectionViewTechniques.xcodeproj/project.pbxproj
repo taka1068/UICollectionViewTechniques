@@ -15,6 +15,7 @@
 		F3CC2D8D237C3D9A0057BA92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3CC2D8B237C3D9A0057BA92 /* LaunchScreen.storyboard */; };
 		F3CC2D98237C3D9A0057BA92 /* UICollectionViewTechniquesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CC2D97237C3D9A0057BA92 /* UICollectionViewTechniquesTests.swift */; };
 		F3CC2DA3237C3D9A0057BA92 /* UICollectionViewTechniquesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CC2DA2237C3D9A0057BA92 /* UICollectionViewTechniquesUITests.swift */; };
+		F3F3CCD323800E00009B6E77 /* Circular1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F3CCD223800E00009B6E77 /* Circular1ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		F3CC2DA2237C3D9A0057BA92 /* UICollectionViewTechniquesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewTechniquesUITests.swift; sourceTree = "<group>"; };
 		F3CC2DA4237C3D9B0057BA92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3CC2DB0237C3E170057BA92 /* UICollectionViewTechniques.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UICollectionViewTechniques.entitlements; sourceTree = "<group>"; };
+		F3F3CCD223800E00009B6E77 /* Circular1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circular1ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				F3CC2D82237C3D9A0057BA92 /* SceneDelegate.swift */,
 				F3CC2D84237C3D9A0057BA92 /* RootViewController.swift */,
 				F3CC2D86237C3D9A0057BA92 /* Main.storyboard */,
+				F3F3CCD123800DCA009B6E77 /* Circular1 */,
 				F3CC2DB1237C53B40057BA92 /* Resources */,
 			);
 			path = UICollectionViewTechniques;
@@ -136,6 +139,14 @@
 				F3CC2D8E237C3D9A0057BA92 /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		F3F3CCD123800DCA009B6E77 /* Circular1 */ = {
+			isa = PBXGroup;
+			children = (
+				F3F3CCD223800E00009B6E77 /* Circular1ViewController.swift */,
+			);
+			path = Circular1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3CC2D85237C3D9A0057BA92 /* RootViewController.swift in Sources */,
+				F3F3CCD323800E00009B6E77 /* Circular1ViewController.swift in Sources */,
 				F3CC2D81237C3D9A0057BA92 /* AppDelegate.swift in Sources */,
 				F3CC2D83237C3D9A0057BA92 /* SceneDelegate.swift in Sources */,
 			);
