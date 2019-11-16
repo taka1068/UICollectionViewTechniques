@@ -34,6 +34,7 @@ class RootViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        title = "UICollectionViewTechniques"
         
         tableView.translatesAutoresizingMaskIntoConstraints = false
         view.addSubview(tableView)
