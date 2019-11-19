@@ -52,9 +52,9 @@ final class OvershootableScrollFlowLayout: UICollectionViewFlowLayout {
     override func prepare() {
         super.prepare()
         guard let collectionView = self.collectionView else { return }
-        let height = collectionView.frame.height - collectionView.safeAreaInsets.top - collectionView.safeAreaInsets.bottom - itemSize.height
-        sectionInset = UIEdgeInsets(top: height / 2, left: 0, bottom: height / 2, right: 0)
-        collectionView.horizontalScrollIndicatorInsets = UIEdgeInsets(top: 0, left: 0, bottom: (height / 2) - 10, right: 0)
+        let verticalInset = 0.5 * (collectionView.frame.height - collectionView.safeAreaInsets.top - collectionView.safeAreaInsets.bottom - itemSize.height)
+        sectionInset = UIEdgeInsets(top: verticalInset, left: 0, bottom: verticalInset, right: 0)
+        collectionView.horizontalScrollIndicatorInsets = UIEdgeInsets(top: 0, left: 0, bottom: verticalInset - 10, right: 0)
     }
     
     private func fixAttirute(_ attribute: UICollectionViewLayoutAttributes, overshoot: Bool) -> UICollectionViewLayoutAttributes {
