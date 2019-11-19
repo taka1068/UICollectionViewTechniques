@@ -9,19 +9,23 @@
 import UIKit
 
 enum Contents: CaseIterable {
+    case overshootableScroll
     case circular1
 }
 
 extension Contents {
     var viewController: UIViewController.Type {
         switch self {
+        case .overshootableScroll:
+            return OvershootableScrollViewController.self
         case .circular1:
             return Circular1ViewController.self
         }
     }
     
     var title: String {
-        return String(describing: self.viewController)
+        let string = String(describing: self.viewController)
+        return string.replacingOccurrences(of: "ViewController", with: "")
     }
 }
 
