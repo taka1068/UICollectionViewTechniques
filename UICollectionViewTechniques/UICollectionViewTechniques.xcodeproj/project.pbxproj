@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F35637B023841CDC00C1B729 /* SimpleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35637AF23841CDC00C1B729 /* SimpleCell.swift */; };
 		F3CC2D81237C3D9A0057BA92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CC2D80237C3D9A0057BA92 /* AppDelegate.swift */; };
 		F3CC2D83237C3D9A0057BA92 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CC2D82237C3D9A0057BA92 /* SceneDelegate.swift */; };
 		F3CC2D85237C3D9A0057BA92 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CC2D84237C3D9A0057BA92 /* RootViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F35637AF23841CDC00C1B729 /* SimpleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCell.swift; sourceTree = "<group>"; };
 		F3CC2D7D237C3D9A0057BA92 /* UICollectionViewTechniques.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UICollectionViewTechniques.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3CC2D80237C3D9A0057BA92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3CC2D82237C3D9A0057BA92 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				F3CC2D82237C3D9A0057BA92 /* SceneDelegate.swift */,
 				F3CC2D84237C3D9A0057BA92 /* RootViewController.swift */,
 				F3CC2D86237C3D9A0057BA92 /* Main.storyboard */,
+				F35637AF23841CDC00C1B729 /* SimpleCell.swift */,
 				F3F3CCD123800DCA009B6E77 /* Circular1 */,
 				F3CC2DB1237C53B40057BA92 /* Resources */,
 			);
@@ -281,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3CC2D85237C3D9A0057BA92 /* RootViewController.swift in Sources */,
+				F35637B023841CDC00C1B729 /* SimpleCell.swift in Sources */,
 				F3F3CCD323800E00009B6E77 /* Circular1ViewController.swift in Sources */,
 				F3CC2D81237C3D9A0057BA92 /* AppDelegate.swift in Sources */,
 				F3CC2D83237C3D9A0057BA92 /* SceneDelegate.swift in Sources */,
