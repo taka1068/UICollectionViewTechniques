@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F35637B023841CDC00C1B729 /* SimpleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35637AF23841CDC00C1B729 /* SimpleCell.swift */; };
+		F3594BFC238ABD0900C5E7FD /* Circular2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3594BFB238ABD0900C5E7FD /* Circular2ViewController.swift */; };
 		F3A944E423804D92006F1D8A /* OvershootableScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A944E323804D92006F1D8A /* OvershootableScrollViewController.swift */; };
 		F3CC2D81237C3D9A0057BA92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CC2D80237C3D9A0057BA92 /* AppDelegate.swift */; };
 		F3CC2D83237C3D9A0057BA92 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CC2D82237C3D9A0057BA92 /* SceneDelegate.swift */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		F35637AF23841CDC00C1B729 /* SimpleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCell.swift; sourceTree = "<group>"; };
+		F3594BFB238ABD0900C5E7FD /* Circular2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circular2ViewController.swift; sourceTree = "<group>"; };
 		F3A944E323804D92006F1D8A /* OvershootableScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OvershootableScrollViewController.swift; sourceTree = "<group>"; };
 		F3CC2D7D237C3D9A0057BA92 /* UICollectionViewTechniques.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UICollectionViewTechniques.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3CC2D80237C3D9A0057BA92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F3594BFA238ABCE500C5E7FD /* Circular2 */ = {
+			isa = PBXGroup;
+			children = (
+				F3594BFB238ABD0900C5E7FD /* Circular2ViewController.swift */,
+			);
+			path = Circular2;
+			sourceTree = "<group>";
+		};
 		F3A944E223804D6A006F1D8A /* OvershootableLayout */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +131,7 @@
 				F35637AF23841CDC00C1B729 /* SimpleCell.swift */,
 				F3A944E223804D6A006F1D8A /* OvershootableLayout */,
 				F3F3CCD123800DCA009B6E77 /* Circular1 */,
+				F3594BFA238ABCE500C5E7FD /* Circular2 */,
 				F3CC2DB1237C53B40057BA92 /* Resources */,
 			);
 			path = UICollectionViewTechniques;
@@ -295,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3CC2D85237C3D9A0057BA92 /* RootViewController.swift in Sources */,
+				F3594BFC238ABD0900C5E7FD /* Circular2ViewController.swift in Sources */,
 				F35637B023841CDC00C1B729 /* SimpleCell.swift in Sources */,
 				F3A944E423804D92006F1D8A /* OvershootableScrollViewController.swift in Sources */,
 				F3F3CCD323800E00009B6E77 /* Circular1ViewController.swift in Sources */,

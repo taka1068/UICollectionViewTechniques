@@ -11,6 +11,7 @@ import UIKit
 enum Contents: CaseIterable {
     case overshootableScroll
     case circular1
+    case circular2
 }
 
 extension Contents {
@@ -20,6 +21,8 @@ extension Contents {
             return OvershootableScrollViewController.self
         case .circular1:
             return Circular1ViewController.self
+        case .circular2:
+            return Circular2ViewController.self
         }
     }
     
