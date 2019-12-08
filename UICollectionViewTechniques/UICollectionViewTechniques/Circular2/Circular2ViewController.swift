@@ -48,6 +48,13 @@ final class Circular2ViewController: UIViewController {
         
         let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(handleGestureRecognizer(_:)))
         collectionView.addGestureRecognizer(tapGestureRecognizer)
+        
+        self.collectionView = collectionView
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        collectionView.flashScrollIndicators()
     }
 }
 
