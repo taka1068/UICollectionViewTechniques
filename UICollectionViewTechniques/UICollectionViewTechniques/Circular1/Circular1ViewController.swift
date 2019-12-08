@@ -8,7 +8,7 @@
 
 import UIKit
 
-// This Layout is ispired by video of WWDC 2012 session 219
+// This Layout is inspired by video of WWDC 2012 session 219
 // https://developer.apple.com/videos/play/wwdc2012/219/
 // also helpful: https://github.com/mpospese/CircleLayout/blob/master/CircleLayout/CircleLayout.m
 final class Circular1ViewController: UIViewController {

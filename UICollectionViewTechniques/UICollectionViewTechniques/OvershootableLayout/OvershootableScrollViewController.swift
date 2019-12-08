@@ -57,7 +57,7 @@ final class OvershootableScrollFlowLayout: UICollectionViewFlowLayout {
         collectionView.horizontalScrollIndicatorInsets = UIEdgeInsets(top: 0, left: 0, bottom: verticalInset - 10, right: 0)
     }
     
-    private func fixAttirute(_ attribute: UICollectionViewLayoutAttributes, overshoot: Bool) -> UICollectionViewLayoutAttributes {
+    private func fixAttribute(_ attribute: UICollectionViewLayoutAttributes, overshoot: Bool) -> UICollectionViewLayoutAttributes {
         guard let collectionView = self.collectionView else { preconditionFailure() }
         if overshoot {
             let copied = attribute.copy(with: nil) as! UICollectionViewLayoutAttributes
@@ -81,14 +81,14 @@ final class OvershootableScrollFlowLayout: UICollectionViewFlowLayout {
             let additionalRect = CGRect(x: collectionViewContentSize.width + rect.origin.x, y: rect.origin.y, width: abs(rect.origin.x), height: rect.height)
             let additionalIndexPaths = super.layoutAttributesForElements(in: additionalRect)?.map { $0.indexPath }
             let additionalAttributes = additionalIndexPaths?.compactMap { layoutAttributesForItem(at: $0) }
-            let fixed = additionalAttributes?.map { fixAttirute($0, overshoot: false) }
+            let fixed = additionalAttributes?.map { fixAttribute($0, overshoot: false) }
             baseElements?.append(contentsOf: fixed ?? [])
         } else if rect.maxX > collectionViewContentSize.width - (collectionView?.frame.width ?? 0) {
             guard let collectionView = self.collectionView else { preconditionFailure() }
             let additionalRect = CGRect(x: 0, y: rect.origin.y, width: collectionView.frame.width, height: rect.height)
             let additionalIndexPaths = super.layoutAttributesForElements(in: additionalRect)?.map { $0.indexPath }
             let additionalAttributes = additionalIndexPaths?.compactMap { layoutAttributesForItem(at: $0) }
-            let fixed = additionalAttributes?.map { fixAttirute($0, overshoot: true) }
+            let fixed = additionalAttributes?.map { fixAttribute($0, overshoot: true) }
             baseElements?.append(contentsOf: fixed ?? [])
         }
         return baseElements
