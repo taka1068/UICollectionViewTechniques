@@ -9,7 +9,6 @@
 import UIKit
 
 enum Contents: CaseIterable {
-    case overshootableScroll
     case circular1
     case circular2
 }
@@ -17,8 +16,6 @@ enum Contents: CaseIterable {
 extension Contents {
     var viewController: UIViewController.Type {
         switch self {
-        case .overshootableScroll:
-            return OvershootableScrollViewController.self
         case .circular1:
             return Circular1ViewController.self
         case .circular2:
